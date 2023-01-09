@@ -4,10 +4,10 @@
 
 ## Hardhat
 
-This DApp is using Hardhat and Hardhat-deploy.
+This DApp is using Hardhat, Hardhat-deploy, NextJS, RainbowKit and Wagmi.
 
-To launch the Hardhat local Blockchain :
-``` yarn hardhat node```
+To launch the Hardhat local Blockchain, go to './backend' and type the command :
+```yarn hardhat node```
 
-Then, in an other prompt, launch the frontEnd : 
+Then, in an other prompt, to launch the App, go to './frontend' and type the command : 
 ```yarn dev```
