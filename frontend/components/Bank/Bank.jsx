@@ -132,7 +132,7 @@ export const Bank = () => {
                         <Spinner mt="2rem" size='xl' color="purple" />
                     ) : (
                         <>
-                            balance && <Text mt="1rem">You have {ethers.utils.formatEther(balance)} Eth on the smart contract.</Text>
+                            {balance && <Text mt="1rem">You have {ethers.utils.formatEther(balance)} Eth on the smart contract.</Text>}
                             <Heading mt="2rem" as='h2' size='xl'>Deposit</Heading>
                             <Flex mt="1rem">
                                 <Input placeholder='Amount in ETH' onChange={e => setAmountDeposit(e.target.value)} />
